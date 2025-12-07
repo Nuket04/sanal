@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuizScene.unity
     guid: 86ac8b416c40fd145acb9b5c99bfa313
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ebcde723162f69a46918388683de725c, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: a19ffd01c1c4de34186995e8e17255ff, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3925bb9af941faa4f9bba21e5a38594c, type: 2}
