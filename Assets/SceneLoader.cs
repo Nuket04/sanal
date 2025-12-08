@@ -67,6 +67,8 @@ public class SceneLoader : MonoBehaviour
 
     private System.Collections.IEnumerator FadeAndLoad(string sceneName)
     {
+      
+
         if (loadingPanel != null)
             loadingPanel.SetActive(true);
 

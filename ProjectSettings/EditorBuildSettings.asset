@@ -12,18 +12,22 @@ EditorBuildSettings:
     path: Assets/QuizScene.unity
     guid: 2625a78537d47d54da543a73ecb84ae7
   - enabled: 1
+    path: Assets/Scenes/SplashScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 7a5283b40cfce3349ab44ae64c62525a
+  - enabled: 1
     path: Assets/Scenes/AR_MarkerScene.unity
     guid: 76516d6605b995b45a5ffc633d9e7bae
   - enabled: 1
     path: Assets/Scenes/AR_MarkerlessScene.unity
     guid: 7bbede6faef6e2544bdee782d0ef7416
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 7a5283b40cfce3349ab44ae64c62525a
-  - enabled: 1
     path: Assets/Scenes/QuizScene.unity
     guid: 86ac8b416c40fd145acb9b5c99bfa313
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ebcde723162f69a46918388683de725c, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 44744b4733416934098e0798cf5586ae, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: a19ffd01c1c4de34186995e8e17255ff, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3925bb9af941faa4f9bba21e5a38594c, type: 2}

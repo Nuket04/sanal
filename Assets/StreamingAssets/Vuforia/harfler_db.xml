@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="balon" size="5.000000 7.496340" />
+    <ImageTarget name="aslan" size="5.000000 7.496340" />
+    <ImageTarget name="vida" size="5.000000 7.496340" />
+    <ImageTarget name="sandalye" size="5.000000 7.496340" />
+    <ImageTarget name="tren" size="5.000000 7.496340" />
+    <ImageTarget name="muz" size="5.000000 7.496340" />
+    <ImageTarget name="zar" size="5.000000 7.496340" />
+    <ImageTarget name="vantilator" size="5.000000 7.496340" />
+    <ImageTarget name="penguen" size="5.000000 7.496340" />
+    <ImageTarget name="vazo" size="5.000000 7.496340" />
+    <ImageTarget name="ordek" size="5.000000 7.496340" />
+    <ImageTarget name="nar" size="5.000000 7.496340" />
+    <ImageTarget name="maymun" size="5.000000 7.496340" />
+    <ImageTarget name="uzum" size="5.000000 7.496340" />
+    <ImageTarget name="ari" size="5.000000 7.455731" />
+  </Tracking>
+</QCARConfig>
