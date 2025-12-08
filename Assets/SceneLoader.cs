@@ -6,6 +6,8 @@ public class SceneLoader : MonoBehaviour
     [Header("Fade Ayarları")]
     public CanvasGroup fadeCanvasGroup;   // FadePanel'in CanvasGroup'u
     public float fadeDuration = 0.5f;     // Geçiş süresi (saniye)
+    public GameObject loadingPanel;
+
 
     private void Start()
     {
@@ -65,6 +67,9 @@ public class SceneLoader : MonoBehaviour
 
     private System.Collections.IEnumerator FadeAndLoad(string sceneName)
     {
+        if (loadingPanel != null)
+            loadingPanel.SetActive(true);
+
         if (fadeCanvasGroup != null)
         {
             // 0 → 1'e çık (ekranı karart)
