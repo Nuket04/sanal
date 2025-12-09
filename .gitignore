@@ -121,5 +121,6 @@ Assets/AssetStoreTools*
 
 # Vuforia large files ignore
 *.tgz
-/Packages/com.ptc.vuforia.engine-*/
-/Assets/Resources/VuforiaConfiguration.asset
+Packages/com.ptc.vuforia.engine-*
+Assets/Resources/VuforiaConfiguration.asset
+
