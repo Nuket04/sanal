@@ -119,7 +119,7 @@ Assets/AssetStoreTools*
 *.opendb
 *.VC.db
 
+# Vuforia large files ignore
 *.tgz
-com.ptc.vuforia.engine-*/
-Assets/Resources/VuforiaConfiguration.asset
-
+/Packages/com.ptc.vuforia.engine-*/
+/Assets/Resources/VuforiaConfiguration.asset
