@@ -31,6 +31,14 @@ public class LoginManager : MonoBehaviour
         if (email == "" || password == "")
         {
             ShowError("E-posta ve şifre boş olamaz");
+
+            // 🔹 EKLE: boş giriş telemetrisi
+            TelemetryManager.Instance.SendEvent(
+                "LoginFailed",
+                email == "" ? "empty_email" : email,
+                "empty_fields"
+            );
+
             return;
         }
 
@@ -40,10 +48,26 @@ public class LoginManager : MonoBehaviour
         if (user == null)
         {
             ShowError("");
+
+            // 🔹 EKLE: hatalı giriş telemetrisi
+            TelemetryManager.Instance.SendEvent(
+                "LoginFailed",
+                email,
+                "wrong_email_or_password"
+            );
         }
         else
         {
             Debug.Log("Giriş başarılı ✅");
+
+            // 🔹 EKLE: session'a kullanıcıyı yaz
+            SessionManager.CurrentUserEmail = email;
+
+            // 🔹 EKLE: başarılı login telemetrisi
+            TelemetryManager.Instance.SendEvent(
+                "LoginSuccess",
+                email
+            );
 
             // Hata varsa kapat (temizlik)
             errorText.gameObject.SetActive(false);
