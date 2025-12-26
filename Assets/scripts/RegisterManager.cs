@@ -1,7 +1,8 @@
 using UnityEngine;
 using TMPro;
-using System.IO;
+using System.IO; //eklenmesi gerekir
 using SQLite;
+using UnityEngine.SceneManagement;
 
 public class RegisterManager : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class RegisterManager : MonoBehaviour
         db = new SQLiteConnection(dbPath);
 
         // Tablo yoksa oluşturur
-        db.CreateTable<User>();
+        db.CreateTable<User>(); //db tablosu oromatik oluşturulacak manuel oluşturmaycağız
     }
 
     public void RegisterUser()
@@ -47,11 +48,12 @@ public class RegisterManager : MonoBehaviour
         emailInput.text = "";
         usernameInput.text = "";
         passwordInput.text = "";
+        SceneManager.LoadScene("LogınScene");
     }
 }
 
 
-public class User
+public class User // kullanıcı bilgielri get ve set edilecek
 {
     [PrimaryKey, AutoIncrement]
     public int Id { get; set; }
