@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SplashScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: "Assets/Scenes/Log\u0131nScene.unity"
+    guid: 47e62f96bc40c2d4db4699835ab6ff19
+  - enabled: 1
+    path: Assets/Scenes/RegisterScene.unity
+    guid: cc5b1d5da2bbb4e4cbd9d5a8baa07e15
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 7a5283b40cfce3349ab44ae64c62525a
   - enabled: 1
@@ -26,12 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuizScene.unity
     guid: 86ac8b416c40fd145acb9b5c99bfa313
-  - enabled: 1
-    path: "Assets/Scenes/Log\u0131nScene.unity"
-    guid: 47e62f96bc40c2d4db4699835ab6ff19
-  - enabled: 1
-    path: Assets/Scenes/RegisterScene.unity
-    guid: cc5b1d5da2bbb4e4cbd9d5a8baa07e15
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ebcde723162f69a46918388683de725c, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 44744b4733416934098e0798cf5586ae, type: 2}
