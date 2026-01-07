@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="zar" size="10.000000 14.992680" />
+    <ImageTarget name="img-20251209-wa0003" size="10.000000 14.911463" />
+    <ImageTarget name="vazo" size="10.000000 14.992680" />
+    <ImageTarget name="uzum" size="10.000000 14.992680" />
+    <ImageTarget name="img-20251209-wa0020" size="10.000000 14.911463" />
+    <ImageTarget name="tren" size="10.000000 14.992680" />
+    <ImageTarget name="img-20251209-wa0005" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0002" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0007" size="10.000000 14.911463" />
+    <ImageTarget name="unnamed" size="10.000000 14.992680" />
+    <ImageTarget name="ordek" size="10.000000 14.992680" />
+    <ImageTarget name="otomobil2" size="10.000000 14.992680" />
+    <ImageTarget name="maymun" size="10.000000 14.992680" />
+    <ImageTarget name="muz" size="10.000000 14.992680" />
+    <ImageTarget name="img-20251209-wa0010" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0015" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0016" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0014" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0011" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0012" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0013" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0009" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0008" size="10.000000 14.911463" />
+    <ImageTarget name="img-20251209-wa0004" size="10.000000 14.911463" />
+    <ImageTarget name="dondurma" size="10.000000 14.992680" />
+    <ImageTarget name="img-20251209-wa0021" size="10.000000 14.911463" />
+    <ImageTarget name="balon" size="10.000000 14.992680" />
+    <ImageTarget name="aslan" size="10.000000 14.992680" />
+  </Tracking>
+</QCARConfig>
