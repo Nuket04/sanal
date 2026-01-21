@@ -40,6 +40,10 @@ public class SceneLoader : MonoBehaviour
     {
         StartCoroutine(FadeAndLoad("QuizScene"));
     }
+    public void LetterScene()
+    {
+        StartCoroutine(FadeAndLoad("LetterScene"));
+    }
 
     public void QuitGame()
     {

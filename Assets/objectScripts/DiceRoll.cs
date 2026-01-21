@@ -1,55 +1,54 @@
 using UnityEngine;
-using System.Collections;
+using UnityEngine.InputSystem;
 
 public class DiceRoll : MonoBehaviour
 {
+    public float rollSpeed = 720f;
     public float rollDuration = 0.6f;
-    public float rollSpeed = 720f; // derece/sn
 
-    private bool isRolling = false;
+    bool isRolling = false;
+    Camera cam;
 
-    // Zar yüzleri için rotasyonlar
-    private Vector3[] faceRotations = new Vector3[]
+    void Start()
     {
-        new Vector3(-180, 360, 0),       // 1
-        new Vector3(-90, 360, 0),      // 2
-        new Vector3(0, 270, 0),      // 3
-        new Vector3(0, 90, 0),     // 4
-        new Vector3(-270, 360, 0),     // 5
-        new Vector3(0, 0, 0)      // 6
-    };
-
-    void OnMouseDown()
-    {
-        if (!isRolling)
-            StartCoroutine(RollDice());
+        cam = Camera.main;
     }
 
-    IEnumerator RollDice()
+    void Update()
+    {
+        if (Touchscreen.current == null) return;
+
+        if (Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+        {
+            Vector2 touchPos = Touchscreen.current.primaryTouch.position.ReadValue();
+            Ray ray = cam.ScreenPointToRay(touchPos);
+
+            if (Physics.Raycast(ray, out RaycastHit hit))
+            {
+                if (hit.transform == transform || hit.transform.IsChildOf(transform))
+                {
+                    if (!isRolling)
+                        StartCoroutine(RollDice());
+                }
+            }
+        }
+    }
+
+    System.Collections.IEnumerator RollDice()
     {
         isRolling = true;
+        float timer = 0f;
 
-        float elapsed = 0f;
-
-        // Atılma efekti (hızlı dönme)
-        while (elapsed < rollDuration)
+        while (timer < rollDuration)
         {
-            transform.Rotate(
-                Random.Range(200f, rollSpeed) * Time.deltaTime,
-                Random.Range(200f, rollSpeed) * Time.deltaTime,
-                Random.Range(200f, rollSpeed) * Time.deltaTime
-            );
-
-            elapsed += Time.deltaTime;
+            transform.Rotate(Vector3.right * rollSpeed * Time.deltaTime);
+            transform.Rotate(Vector3.up * rollSpeed * Time.deltaTime);
+            timer += Time.deltaTime;
             yield return null;
         }
 
-        // Rastgele yüz seç
-        int result = Random.Range(0, 6);
-        transform.rotation = Quaternion.Euler(faceRotations[result]);
-
-        Debug.Log("🎲 Zar sonucu: " + (result + 1));
-
+        // Rastgele yüz
+        transform.rotation = Random.rotation;
         isRolling = false;
     }
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="orumcek" size="10.000000 15.000000" />
+    <ImageTarget name="jeton" size="10.000000 15.000000" />
+    <ImageTarget name="fincan" size="10.000000 15.000000" />
+    <ImageTarget name="notdefteri" size="10.000000 15.000000" />
+    <ImageTarget name="kedi" size="10.000000 15.000000" />
+    <ImageTarget name="ceket" size="10.000000 15.000000" />
+  </Tracking>
+</QCARConfig>

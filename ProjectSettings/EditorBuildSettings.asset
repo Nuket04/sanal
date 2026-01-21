@@ -32,6 +32,93 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RegisterScene.unity
     guid: cc5b1d5da2bbb4e4cbd9d5a8baa07e15
+  - enabled: 1
+    path: Assets/Scenes/LetterScene.unity
+    guid: b5f650a5bee747243a02cf546a2f2720
+  - enabled: 1
+    path: Assets/QuizScene/a.unity
+    guid: 066566431b43e82448e2729762300a6c
+  - enabled: 1
+    path: Assets/QuizScene/b.unity
+    guid: 8c2883a8b12c71544ad4a5d38e69f1ea
+  - enabled: 1
+    path: Assets/QuizScene/c.unity
+    guid: e5096bca2a1794c45ae2008c39bd2447
+  - enabled: 1
+    path: "Assets/QuizScene/\xC7.unity"
+    guid: 80e4f6a4b4ac71b48b2977a27970d080
+  - enabled: 1
+    path: Assets/QuizScene/d.unity
+    guid: d14c999d952a24d4e9fa22a04411f7ce
+  - enabled: 1
+    path: Assets/QuizScene/e.unity
+    guid: 29ee28190b1455d429f61328bd4eaadc
+  - enabled: 1
+    path: Assets/QuizScene/f.unity
+    guid: 24763e2044487d64bbda397300f08f92
+  - enabled: 1
+    path: Assets/QuizScene/g.unity
+    guid: 7cfe6014685c8ca48b2d646fae09de00
+  - enabled: 1
+    path: Assets/QuizScene/h.unity
+    guid: 74dc8ca4b09aa9c4485d9c5636c4a692
+  - enabled: 1
+    path: "Assets/QuizScene/\u0131.unity"
+    guid: adf552757f0a5c14d91c5f4abaf2a547
+  - enabled: 1
+    path: Assets/QuizScene/i.unity
+    guid: 7a33f705a382c6a47b698416866edf75
+  - enabled: 1
+    path: Assets/QuizScene/j.unity
+    guid: 8e1ea9bd2ce1c444585cda2cf5bb9b56
+  - enabled: 1
+    path: Assets/QuizScene/k.unity
+    guid: 45b0a8b3aa0644b4faa44b634a4ff7ad
+  - enabled: 1
+    path: Assets/QuizScene/L.unity
+    guid: 68c8f30e2133d784b8373326271a9b0f
+  - enabled: 1
+    path: Assets/QuizScene/m.unity
+    guid: 48ece0f0f1f52a9468a8bb0f9235c572
+  - enabled: 1
+    path: Assets/QuizScene/n.unity
+    guid: 19b2a7e245376ce42a1e3791ba5dc16a
+  - enabled: 1
+    path: Assets/QuizScene/o.unity
+    guid: ee7dc4bdce0d0a54cb677616fca04f37
+  - enabled: 1
+    path: "Assets/QuizScene/\xF6.unity"
+    guid: 7ab9743f564016848b9fafa8fda3132c
+  - enabled: 1
+    path: Assets/QuizScene/p.unity
+    guid: c613244656c7fa64a81c3c26c1e5fca5
+  - enabled: 1
+    path: Assets/QuizScene/r.unity
+    guid: 83d8a8828847c4c43bb6f12f62bd904e
+  - enabled: 1
+    path: Assets/QuizScene/s.unity
+    guid: 95bfba5fc0c6e404094983c530c76b75
+  - enabled: 1
+    path: "Assets/QuizScene/\u015E.unity"
+    guid: 6413f1230be12f147b1f6c587498fb88
+  - enabled: 1
+    path: Assets/QuizScene/t.unity
+    guid: 3a392a9aaaafc884a97e2a211296cbea
+  - enabled: 1
+    path: Assets/QuizScene/u.unity
+    guid: 91a1fa480f620a3459ab512e87603a72
+  - enabled: 1
+    path: "Assets/QuizScene/\xDC.unity"
+    guid: a9a49045a8430f4478507ca4b7dc72a3
+  - enabled: 1
+    path: Assets/QuizScene/V.unity
+    guid: 44b0a13436ea9634d9b8b1ecd71e5428
+  - enabled: 1
+    path: Assets/QuizScene/Y.unity
+    guid: 34bbc2ab4875a8741bc916b1d84febd1
+  - enabled: 1
+    path: Assets/QuizScene/z.unity
+    guid: faa78f079e11bff448e0071bc478ece9
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ebcde723162f69a46918388683de725c, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 44744b4733416934098e0798cf5586ae, type: 2}
