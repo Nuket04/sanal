@@ -6,6 +6,7 @@ TagManager:
   tags:
   - HiddenButton
   - ScoreText
+  - TimerText
   layers:
   - Default
   - TransparentFX
